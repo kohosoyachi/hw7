@@ -17,12 +17,14 @@
 figcaption{
 	text-align: center;
 }
+
 .oldSchool{
 	filter: grayscale(100%);
 	width:75%;
 	border:5px double grey;
 	border-radius:20px;
 }
+
 button{
 	margin-bottom: 5px;
 	flex-basis: 200px;
