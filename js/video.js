@@ -64,12 +64,11 @@ if(document.getElementById("faster")) {
 if(document.getElementById("skip")) { 
 	console.log("skip");
 	document.getElementById("skip").addEventListener("click", function() {
-		video.currentTime += 10; 
-		console.log(video.currentTime);
+		video.currentTime += 10; 		
 		if(video.currentTime >= video.duration) {
 			video.currentTime = 0;
-			console.log(video.currentTime);
 		}
+		console.log(video.currentTime);
 	});
 }
 
